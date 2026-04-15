@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "497704676718",
+    "project_id": "full-trading-course",
+    "storage_bucket": "full-trading-course.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497704676718:android:45cfe2a4ca32c6ad96657f",
+        "android_client_info": {
+          "package_name": "com.trademaster.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK0eRGPq886GyaIs_2C7-c96qCmFD77Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
