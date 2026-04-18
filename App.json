@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Trading Academy Pro",
-    "slug": "trading-academy",
+    "slug": "trademasterapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,12 +9,12 @@
     "backgroundColor": "#0F172A",
     
     "ios": {
-      "bundleIdentifier": "com.tradingacademy.app",
+      "bundleIdentifier": "com.mantlenegro.tradingacademy.app",
       "supportsTablet": true
     },
 
     "android": {
-      "package": "com.tradingacademy.app",
+      "package": "com.mantlenegro.tradingacademy.app",
       "versionCode": 1,
       "permissions": [
         "INTERNET",
