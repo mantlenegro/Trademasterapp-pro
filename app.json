@@ -1,0 +1,1 @@
+{"name": "trading-academy","slug": "trading-academy","version": "1.0.0","sdkVersion": "50.0.0","platforms": ["ios","android"],"android": {"package": "com.mantlenegro.trademasterapp"},"extra": {"eas": {"projectId": "1eb82123-854b-4fa8-b8e0-ed0b691e0444"}}}
