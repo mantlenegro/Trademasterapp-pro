@@ -1,18 +1,16 @@
 {
   "expo": {
-    "name": "trade academy pro",
+    "name": "Trade Academy Pro",
     "slug": "trademasterapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark", 
+    "userInterfaceStyle": "dark",
     "backgroundColor": "#0F172A",
-    
     "ios": {
       "bundleIdentifier": "com.mantlenegro.tradeacademypro.app",
       "supportsTablet": true
     },
-
     "android": {
       "package": "com.mantlenegro.tradeacademypro.app",
       "versionCode": 1,
@@ -26,7 +24,6 @@
         "backgroundColor": "#0F172A"
       }
     },
-
     "plugins": [
       [
         "react-native-google-mobile-ads",
@@ -40,17 +37,19 @@
       "expo-print",
       "expo-sharing"
     ],
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#0F172A"
     },
-
     "extra": {
       "eas": {
         "projectId": "1eb82123-854b-4fa8-b8e0-ed0b691e0444"
       }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-9598335800956469~1158817426",
+    "ios_app_id": "ca-app-pub-9598335800956469~1158817426"
   }
 }
