@@ -1,6 +1,4 @@
-const isEasConfigStep = process.env.CI && !process.env.EAS_BUILD;
-
-const config = {
+module.exports = {
   expo: {
     name: "Trade Academy Pro",
     slug: "trademasterapp",
@@ -31,20 +29,12 @@ const config = {
         }
       ],
       "expo-notifications",
-      "expo-print",
-      "expo-sharing"
+      "expo-sharing",
+      // We manually point to the plugin to bypass the "import" error
+      "./node_modules/expo-print/app.plugin.js"
     ],
     extra: {
       eas: { projectId: "1eb82123-854b-4fa8-b8e0-ed0b691e0444" }
     }
   }
 };
-
-// Workaround for the "Cannot use import statement" bug during the initial config read
-if (isEasConfigStep) {
-  config.expo.plugins = config.expo.plugins.filter(p => 
-    typeof p === 'string' ? !p.includes('expo-print') : !p[0].includes('expo-print')
-  );
-}
-
-module.exports = config;
