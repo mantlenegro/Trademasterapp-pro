@@ -30,8 +30,7 @@ module.exports = {
       ],
       "expo-notifications",
       "expo-sharing",
-      // We manually point to the plugin to bypass the "import" error
-      "./node_modules/expo-print/app.plugin.js"
+      "expo-print"
     ],
     extra: {
       eas: { projectId: "1eb82123-854b-4fa8-b8e0-ed0b691e0444" }
