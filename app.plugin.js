@@ -1,13 +1,15 @@
-// app.plugin.js
 const { createRunOncePlugin } = require('@expo/config-plugins');
 
-// This manual plugin bypasses the broken auto-detection in expo-sharing
-const withSharingPlugin = (config) => {
+// Manual plugin to bypass the "import statement" error in SDK 50
+const withLocalFix = (config) => {
   return config;
 };
 
-module.exports = createRunOncePlugin(
-  withSharingPlugin,
-  'expo-sharing',
-  '11.5.0'
-);
+// Apply to both sharing and print
+const withCombinedPlugins = (config) => {
+  config = createRunOncePlugin(withLocalFix, 'expo-sharing', '11.5.0')(config);
+  config = createRunOncePlugin(withLocalFix, 'expo-print', '12.8.1')(config);
+  return config;
+};
+
+module.exports = withCombinedPlugins;
