@@ -28,8 +28,7 @@ module.exports = {
           "iosAppId": "ca-app-pub-9598335800956469~1158817426"
         }
       ],
-      "expo-notifications",
-      "./app.plugin.js"
+      "expo-notifications"
     ],
     extra: {
       eas: { projectId: "1eb82123-854b-4fa8-b8e0-ed0b691e0444" }
