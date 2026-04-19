@@ -2,7 +2,7 @@
   "name": "tradeacademypro",
   "version": "1.0.2",
   "type": "commonjs",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
