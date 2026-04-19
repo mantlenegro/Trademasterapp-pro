@@ -21,11 +21,19 @@ module.exports = {
       }
     },
     plugins: [
-      "react-native-google-mobile-ads", // Simplified reference
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-9598335800956469~1158817426",
+          "iosAppId": "ca-app-pub-9598335800956469~1158817426"
+        }
+      ],
       "expo-notifications"
     ],
     extra: {
-      eas: { projectId: "1eb82123-854b-4fa8-b8e0-ed0b691e0444" }
+      eas: {
+        projectId: "1eb82123-854b-4fa8-b8e0-ed0b691e0444"
+      }
     }
   }
 };
