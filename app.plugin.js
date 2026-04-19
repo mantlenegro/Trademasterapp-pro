@@ -1,5 +1,7 @@
+// app.plugin.js
 const { createRunOncePlugin } = require('@expo/config-plugins');
 
+// This manual plugin bypasses the broken auto-detection in expo-sharing
 const withSharingPlugin = (config) => {
   return config;
 };
