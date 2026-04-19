@@ -21,13 +21,7 @@ module.exports = {
       }
     },
     plugins: [
-      [
-        "react-native-google-mobile-ads",
-        {
-          "androidAppId": "ca-app-pub-9598335800956469~1158817426",
-          "iosAppId": "ca-app-pub-9598335800956469~1158817426"
-        }
-      ],
+      "react-native-google-mobile-ads", // Simplified reference
       "expo-notifications"
     ],
     extra: {
