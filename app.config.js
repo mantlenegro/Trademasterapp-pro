@@ -29,8 +29,8 @@ module.exports = {
         }
       ],
       "expo-notifications",
-      "expo-sharing",
-      "expo-print"
+      "expo-print",
+      "./app.plugin.js"
     ],
     extra: {
       eas: { projectId: "1eb82123-854b-4fa8-b8e0-ed0b691e0444" }
