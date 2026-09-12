@@ -13,11 +13,13 @@
       "backgroundColor": "#0F172A"
     },
     "ios": {
-      "bundleIdentifier": "com.mantlenegro.tradeacademypro.app",
+      "bundleIdentifier": "com.google.example",
+      "x_old_bundleIdentifier": "com.mantlenegro.tradeacademypro.app",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.mantlenegro.tradeacademypro.app",
+      "package": "com.google.example",
+      "x_old_package": "com.mantlenegro.tradeacademypro.app",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -28,8 +30,10 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-9598335800956469~1158817426",
-          "iosAppId": "ca-app-pub-9598335800956469~1158817426"
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "x_old_androidAppId": "ca-app-pub-9598335800956469~1158817426",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "x_old_iosAppId": "ca-app-pub-9598335800956469~1158817426"
         }
       ],
       "expo-notifications"
@@ -41,7 +45,9 @@
     }
   },
   "react-native-google-mobile-ads": {
-    "android_app_id": "ca-app-pub-9598335800956469~1158817426",
-    "ios_app_id": "ca-app-pub-9598335800956469~1158817426"
+    "android_app_id": "ca-app-pub-3940256099942544~3347511713",
+    "x_old_android_app_id": "ca-app-pub-9598335800956469~1158817426",
+    "ios_app_id": "ca-app-pub-3940256099942544~1458002511",
+    "x_old_ios_app_id": "ca-app-pub-9598335800956469~1158817426"
   }
 }
