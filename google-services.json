@@ -9,7 +9,8 @@
       "client_info": {
         "mobilesdk_app_id": "1:497704676718:android:45cfe2a4ca32c6ad96657f",
         "android_client_info": {
-          "package_name": "com.trademaster.app"
+          "package_name": "com.google.example",
+          "x_old_package_name": "com.trademaster.app"
         }
       },
       "oauth_client": [],
